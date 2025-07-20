@@ -46,10 +46,10 @@ Core framework that simulates and visualizes how strategies would have performed
 
 The `Backtester` class (`backtesting/backtesting.py`) is responsible for:
 
-- ✅ Downloading and caching historical data for all S&P 500 companies.
-- ✅ Randomly selecting a subset of companies for simulation.
-- ✅ Running a chosen trading strategy on daily closing prices over a 10-year period.
-- ✅ Plotting buy/sell signals alongside historical stock prices for visualization.
+- Downloading and caching historical data for all S&P 500 companies.
+- Randomly selecting a subset of companies for simulation.
+- Running a chosen trading strategy on daily closing prices over a 10-year period.
+- Plotting buy/sell signals alongside historical stock prices for visualization.
 
 ### Key Methods
 
