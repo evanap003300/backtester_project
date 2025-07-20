@@ -4,7 +4,7 @@ This project implements and backtests a variety of algorithmic trading strategie
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ### `strategies/`
 Contains modular implementations of trading strategies.
@@ -14,7 +14,7 @@ Core framework that simulates and visualizes how strategies would have performed
 
 ---
 
-## 📈 Strategies Implemented
+## Strategies Implemented
 
 ### 1. **SMA Crossover Strategy**
 - **Type**: Trend-following  
@@ -42,7 +42,7 @@ Core framework that simulates and visualizes how strategies would have performed
 
 ---
 
-## ⚙️ Backtesting Framework
+## Backtesting Framework
 
 The `Backtester` class (`backtesting/backtesting.py`) is responsible for:
 
@@ -58,7 +58,7 @@ The `Backtester` class (`backtesting/backtesting.py`) is responsible for:
 
 ---
 
-## 👥 Authors
+## Authors
 
 - **Evan Phillips**  
 - **Whitt Byrd**
