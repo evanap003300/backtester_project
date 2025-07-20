@@ -1,20 +1,11 @@
-# Start date 
+# SMA Periods 
 SHORT_TERM_SMA_PERIOD = 50
 LONG_TERM_SMA_PERIOD = 200
 
-# Gets start date for the strategy
-
-# keep an array of 200 prices 
-
-# start the top from most recent 
-# update top elemeent of the array each time with the new price 
-# Need to remove from bottom and add to top
-
+# keeps an array of 200 prices 
 past_prices = []
 
-# Get the original 200-period SMA and then keep updating it in a cache for efficent lookups 
-
-# Assumes data is list of past prices in chronological order with 200 prices of data
+# Get the original 200-period SMA and then keep updating it in a cache for efficent lookups
 def sma_crossover_strategy(close_price: int) -> int:
     global past_prices
     
@@ -47,6 +38,3 @@ def sma_crossover_strategy(close_price: int) -> int:
         return -1 # Sell
     
     return 0 # Hold 
-
-for i in range(0, 500):
-    print(sma_crossover_strategy(i))
