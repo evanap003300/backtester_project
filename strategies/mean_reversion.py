@@ -5,7 +5,7 @@ SMA_PERIOD = 20
 past_prices = []
 
 # Get the original 20-period SMA and then keep updating it in a cache for efficent lookups
-def sma_crossover_strategy(close_price: int) -> int:
+def mean_reversion_strategy(close_price: int) -> int:
     global past_prices
     
     if (len(past_prices) < SMA_PERIOD):
